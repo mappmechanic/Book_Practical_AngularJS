@@ -1,0 +1,14 @@
+##Change log:
+
+* version 0.2: nnth March 2014
+ * Create the following main section: "Using AngularJS", "KarmaJS", "Firebase", "Misc Tricks", "IDEs", "Troubleshooting", "Appendices"
+ * Changed the order of the chapters (using the new sections created, instead of the original import structure (by month))
+ * Book configuration change to add page break for every section (i.e. blog post)
+ * Added this change log
+ * Created Git repo on local dropbox sync folder
+ * Added Appendix "Post's Details"
+ 
+
+* version 0.1: 10th March 2014
+ * First release of book with raw import from blogger posts (no formatting or editing done)
+
