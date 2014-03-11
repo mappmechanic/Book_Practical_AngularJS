@@ -2,7 +2,7 @@
 
 This book contains the AngularJS related blog posts posted on Dinis Cruz’ blog at http://blog.diniscruz.com.
 
-This is the fist draft release of this book, so please send your sugesttions, criticisms, ideas or comments to dinis.cruz@owasp.org
+This is the first draft release of this book, so please send your sugesttions, criticisms, ideas or comments to dinis.cruz@owasp.org
 
 ## Notes about current structure
 
