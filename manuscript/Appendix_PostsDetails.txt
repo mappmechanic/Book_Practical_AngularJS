@@ -2,13 +2,17 @@
 
 This is the chronological order of the posts:
 
-## March 2013
+### March 2013
+
 * Using Chrome inside a native VisualStudio pane (using Window Handle Hijacking) 
 
-## April 2013
+### April 2013
+
 * Submitting TM users to HubSpot via TBOT interface (using Angular JS) 
 * Hubspot current.js code includes JQuery on it 
-## June 2013
+
+### June 2013
+
 * AngularJS code editor using UI-Bootstrap and CodeMirror (done without using jQuery) 
 * Running KarmaJS's AngularJS example test/e2e/angular-scenario (on Chrome) 
 * Debugging a weird case of missing module in AngularJS and KarmaJS 
@@ -19,7 +23,7 @@ This is the chronological order of the posts:
 * When the best way to automate Chrome is to use ... Chrome (with examples on Google search, direct AngularJS scope manipulation and ChromeDriver javascript access) 
 * Using WebStorm with Chrome and ChromeDriver (to view KarmaJS execution results) 
 
-## February 2014
+### February 2014
 
 * Creating an Eclipse UI to run AngularJS e2e tests using Karma 
 * Trying out Firebase (Beta) hosting solution and good example of Firebase Security rules 
@@ -31,7 +35,8 @@ This is the chronological order of the posts:
 * Using AngularJS in Eclipse, Part 3) Wire up a Backend 
 * Using AngularJS in Eclipse, Part 4) Create Components 
 
-## March 2014
+### March 2014
+
 * Eclipse Groovy script to remove the 'busy' image from the WebBrowser Editor 
 * Programatically changing an AngularJS scope variable and adding Firebug Lite to an AngularJs app 
 
