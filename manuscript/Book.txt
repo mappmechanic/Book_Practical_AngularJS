@@ -5,7 +5,7 @@
 
 {mainmatter}
 
-C1..Chapter_Using_AngularJS.txt
+C1..Chapter_Using_AngularJS.md
 
 c1.areallysimpleandcleanangularjsfirebaseexample.txt
 c1.usingangularjsineclipsepart1thebasics.txt
