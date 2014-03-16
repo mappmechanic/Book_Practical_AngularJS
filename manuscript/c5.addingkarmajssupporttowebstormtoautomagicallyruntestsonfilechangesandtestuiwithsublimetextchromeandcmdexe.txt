@@ -15,37 +15,37 @@ Here is the directory structure:
     
     module.exports = function(karma)  
     {  
-        karma.configure({  
-            frameworks: ['ng-scenario'],
+        karma.configure(
+            {  
+                frameworks: ['ng-scenario'],
+        
+                files:  
+                            [  
+                                '../Tests/**/*.Spec.js'  
+                            ],
 
-files:  
-[  
-'../Tests/**/*.Spec.js'  
-],
+                urlRoot: '/__karma/',
+    
+                autoWatch: true,
+    
+                proxies: {  
+                            '/' : 'http://localhost:12120/',  
+                            '/Tests': 'http://localhost:12120/AngularJs/Tests/'
+    
+                     },
 
-urlRoot: '/__karma/',
+               //browsers: ['Chrome'],
 
-autoWatch: true,
-
-proxies: {  
-'/' : 'http://localhost:12120/',  
-'/Tests': 'http://localhost:12120/AngularJs/Tests/'
-
-},
-
-//browsers: ['Chrome'],
-
-reporters: ['dots'],  
-//reporters: ['progress'],  
-plugins: [  
-'karma-ng-scenario',  
-'karma-chrome-launcher'  
-//,'karma-firefox-launcher'  
-] ,  
-//logLevel: karma.LOG_DEBUG  
-logLevel: karma.LOG_INFO  
-});  
-};  
+                reporters: ['dots'],    //reporters: ['progress'],  
+                plugins: [  
+                            'karma-ng-scenario',  
+                            'karma-chrome-launcher'  
+                         //,'karma-firefox-launcher'  
+                         ] ,  
+              //logLevel: karma.LOG_DEBUG  
+                logLevel: karma.LOG_INFO  
+            });  
+    };  
   
 ... **Simple.html **like this:  
 
@@ -69,9 +69,6 @@ logLevel: karma.LOG_INFO
     </html>
 
   
-
-
-  
 ... **Simple.Spec.js** like this:  
 
     
@@ -90,31 +87,30 @@ logLevel: karma.LOG_INFO
                     expect(browser ().window().path()).toBe("/Tests/AngularJS/aaa.html");  
                 });
 
-it('Set Field value and check Angular scope update', function()  
-{  
-var testValue = "This is a value";  
-var expectedValue = "Hello " + testValue + "!";  
-input('yourName').enter(testValue);  
-expect(element('.ng-binding').text()).toEqual(expectedValue);  
-});
+            it('Set Field value and check Angular scope update', function()  
+                {  
+                    var testValue = "This is a value";  
+                    var expectedValue = "Hello " + testValue + "!";  
+                    input('yourName').enter(testValue);  
+                    expect(element('.ng-binding').text()).toEqual(expectedValue);  
+                });
 
-it('get path value manually (using setTimeout)',function()  
-{  
-var path = browser().window().path();  
-console.log("(before timeout) path value = " + path.value );  
-setTimeout(function()  
-{  
-console.log("(after timeout) path value = " + path.value );  
-//expect("value").toBe("/123");
+            it('get path value manually (using setTimeout)',function()  
+                {
+                    var path = browser().window().path();  
+                    console.log("(before timeout) path value = " + path.value );  
+                    setTimeout(function()  
+                        {  
+                            console.log("(after timeout) path value = " + path.value );  
+                            //expect("value").toBe("/123");
 
-},200);  
-sleep(1);  
-});  
-});  
+                        },200);  
+                    sleep(1);  
+                });  
+        });  
   
 ... and **MarkDown.Editor.Spec.js** currently with just  
-
-    
+  
     describe('Markdown Editor - View funcionality', function()  
         {  
             it("Should open", function()  
@@ -125,10 +121,6 @@ sleep(1);
                     //sleep(10);  
                 });  
         });
-
-  
-
-
   
 This is how I configured Karma to run on WebStorm:
 
@@ -173,18 +165,12 @@ I also created a test GUI using the [O2 Platform](http://blog.diniscruz.com/p/ow
 
 In the image above:  
 
-
-  * The host process is the O2 Platform [Util - Win32 Window Handle Hijack (4x host panels ).h2](http://blog.diniscruz.com/2012/11/util-win32-window-handle-hijack-4x-host.html) script/tool (which is a .Net app)
-
+* The host process is the O2 Platform [Util - Win32 Window Handle Hijack (4x host panels ).h2](http://blog.diniscruz.com/2012/11/util-win32-window-handle-hijack-4x-host.html) script/tool (which is a .Net app)
   
+    * The left-hand side the [**Sublime Text** editor](http://www.sublimetext.com/) (which is a C++, Pyhton app)  
+    * The top-right is **_Chrome_** (which is C++ app)  
+    * The bottom-right is **cmd.exe** (C++ app) running the command _**karma start karma.conf.js **in the **E:\TeamMentor\TM_Dev Repos\TM_Dev_Dinis\Web Applications\TM_Website\AngularJS\Karma** folder_
 
-* The left-hand side the [**Sublime Text** editor](http://www.sublimetext.com/) (which is a C++, Pyhton app)
-  
-
-* The top-right is **_Chrome_** (which is C++ app)
-  
-
-* The bottom-right is **cmd.exe** (C++ app) running the command _**karma start karma.conf.js **in the **E:\TeamMentor\TM_Dev Repos\TM_Dev_Dinis\Web Applications\TM_Website\AngularJS\Karma** folder_
 All in a nice, self-contained process/environment
 
 Note that there are 4 separate process at play here (O2 Platform, Sublime, Chrome and Cmd.Exe w/ Karma)

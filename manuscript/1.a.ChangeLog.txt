@@ -2,6 +2,10 @@
 
 In 2014, here are the changes made (per version):
 
+* **v0.13 (16th March)**
+    * added new cover to eBook version
+    * lots of formating changes to most chapters/posts (specialy on current source code samples)
+    * added leanpub attributes for: frontmatter, mainmatter, backmatter
 * **v0.12 (11th March)**
     * fixed spellings
     * fixed nested list in this change log (needs 4 spaces on line start)

@@ -25,12 +25,12 @@ The great posts [http://stackoverflow.com/a/15012542](http://stackoverflow.com/a
 Basically, it's better not  have jQuery available, since them, the only way to solve a problem, is the 'AngularJS way' :)
 
 **How it works:**  
-**  
-**Here is a brief explanation of the code behind this PoC (included in full at the end of this page):
+
+Here is a brief explanation of the code behind this PoC (included in full at the end of this page):
 
 First we load the **Javascript** and **CSS:**  
-**  
-**[![image](images/image_thumb_25255B2_25255D1.png)](http://lh4.ggpht.com/-tEcuVEP1D80/UbsYEoXOcjI/AAAAAAAANsA/HWHRdWIOT18/s1600-h/image%25255B8%25255D.png)
+
+[![image](images/image_thumb_25255B2_25255D1.png)](http://lh4.ggpht.com/-tEcuVEP1D80/UbsYEoXOcjI/AAAAAAAANsA/HWHRdWIOT18/s1600-h/image%25255B8%25255D.png)
 
 ... them set up **_AngularJS_** module and **_codeMirror_** value
 
@@ -50,72 +50,71 @@ First we load the **Javascript** and **CSS:**
 
   
 **Complete Source code:**  
-
     
     <!DOCTYPE html>
+    
+    <html>  
+        <head>  
+            <title>CodeMirror with AngularJS</title>  
+            <link href="/Content/bootstrap.min.css" rel="stylesheet">  
+            <script src="/Scripts/angular.min.js" type="text/javascript"></script>  
+            <script src="/Scripts/angular-ui.js" type="text/javascript"></script>  
+            <script src="/Scripts/ui-bootstrap-tpls-0.3.0.min.js" type="text/javascript"></script>
 
-<html>  
-<head>  
-<title>CodeMirror with AngularJS</title>  
-<link href="/Content/bootstrap.min.css" rel="stylesheet">  
-<script src="/Scripts/angular.min.js" type="text/javascript"></script>  
-<script src="/Scripts/angular-ui.js" type="text/javascript"></script>  
-<script src="/Scripts/ui-bootstrap-tpls-0.3.0.min.js" type="text/javascript"></script>
-
-<link href="/Content/codemirror-3.01/codemirror.css" rel="stylesheet"/>  
-<link href="/Content/codemirror-3.01/theme/rubyblue.css" rel="stylesheet"/>  
-<script src="/Scripts/codemirror-3.01/codemirror.js" type="text/javascript"></script>  
-<script src="/Scripts/codemirror-3.01/mode/javascript.js" type="text/javascript"></script>
+            <link href="/Content/codemirror-3.01/codemirror.css" rel="stylesheet"/>  
+            <link href="/Content/codemirror-3.01/theme/rubyblue.css" rel="stylesheet"/>  
+            <script src="/Scripts/codemirror-3.01/codemirror.js" type="text/javascript"></script>  
+            <script src="/Scripts/codemirror-3.01/mode/javascript.js" type="text/javascript"></script>
 
   
-<script type="text/javascript">  
-var myApp = angular.module('myApp', ['ui', 'ui.bootstrap']);
+            <script type="text/javascript">  
+                var myApp = angular.module('myApp', ['ui', 'ui.bootstrap']);
+    
+                myApp.value('ui.config',  
+                    {  
+                        codemirror:  
+                            {  
+                                mode: 'javascript',  
+                                lineNumbers: true,  
+                                matchBrackets: true,  
+                                theme: 'rubyblue'  
+                            }  
+                    });
 
-myApp.value('ui.config',  
-{  
-codemirror:  
-{  
-mode: 'javascript',  
-lineNumbers: true,  
-matchBrackets: true,  
-theme: 'rubyblue'  
-}  
-});
+                function codeCtrl($scope,$http)  
+                {  
+                    $scope.docLocation = document.location.href;  
+                    $http.get($scope.docLocation)  
+                         .success(function (data)  
+                            {  
+                                $scope.code = data;  
+                            });  
+                    //$scope.code = "var a = 'somecode'; \n//which also shows above</h1>";  
+                }  
+            </script>  
+        </head>  
+    <body ng-app="myApp">  
+        <div class="well well-large">  
+            <div class="container">  
+                <h2>CodeMirror working with AngularJS and Bootstrap</h2></div>  
+            </div>  
+            <div ng-controller="codeCtrl">  
+                <div class="container">
 
-function codeCtrl($scope,$http)  
-{  
-$scope.docLocation = document.location.href;  
-$http.get($scope.docLocation)  
-.success(function (data)  
-{  
-$scope.code = data;  
-});  
-//$scope.code = "var a = 'somecode'; \n//which also shows above</h1>";  
-}  
-</script>  
-</head>  
-<body ng-app="myApp">  
-<div class="well well-large">  
-<div class="container">  
-<h2>CodeMirror working with AngularJS and Bootstrap</h2></div>  
-</div>  
-<div ng-controller="codeCtrl">  
-<div class="container">
+                <h4>Code Editor:</h4>  
+                <p>With the the contents of this page (i.e.: {{docLocation}} )</p>
 
-<h4>Code Editor:</h4>  
-<p>With the the contents of this page (i.e.: {{docLocation}} )</p>
+                <textarea ui-codemirror ng-model="code"></textarea>
 
-<textarea ui-codemirror ng-model="code"></textarea>
+                <br/><hr/><br/>
 
-<br/><hr/><br/>
-
-<h4>Bootstrap alert style</h4>  
-<p>  
-Showing in real time the contents of the code shown above (make a change to try it)  
-</p>  
-<alert type="success">{{code}}</alert>  
-</div>  
-</div>  
-</body>  
+                <h4>Bootstrap alert style</h4>  
+                <p>  
+                    Showing in real time the contents of the code shown above (make a change to try it)  
+                </p>  
+                <alert type="success">{{code}}</alert>  
+            </div>  
+        </div>  
+    </body>  
 </html>  
 

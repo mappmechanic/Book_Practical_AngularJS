@@ -6,7 +6,9 @@ This is the first draft release of this book, so please send your sugesttions, c
 
 ### Notes about current structure
 
-At the moment, the chapter order is the one created by the original ‘import from blogger’ (i.e. by publish order). A better idea might be to create logical groups, so that the posts are ordered based on some user-friendly criteria (still to be defined)
+The first version of this book had the chapter order created by the original ‘import from blogger’ (i.e. by publish order). 
+
+In the current version, the posts are split into the following areas: "Using AngularJS", "KarmaJS", "Firebase", "Misc Tricks", "IDEs", "Troubleshooting", "Appendices", which is a filter based on technology. Note that this can change based on reader feedback, so if you think the order should be different, please send your feedback and ideas.
 
 ### About the Author
 
