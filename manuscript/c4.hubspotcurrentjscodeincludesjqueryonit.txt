@@ -34,7 +34,7 @@ Now, if we remove the jQuery script import:
 
 the **_$_** variable will not be available:
 
- [![image](images/image_thumb_25255B7_25255D.png)](http://lh3.ggpht.com/-TjgHD74fmjI/UVrQf2MxEaI/AAAAAAAAAwY/SGn-VzQ1iIg/s1600-h/image%25255B23%25255D.png)
+[![image](images/image_thumb_25255B7_25255D.png)](http://lh3.ggpht.com/-TjgHD74fmjI/UVrQf2MxEaI/AAAAAAAAAwY/SGn-VzQ1iIg/s1600-h/image%25255B23%25255D.png)
 
 But if we assign **_$_** to **_window.hsJQuery_**, we are back in action:
 
