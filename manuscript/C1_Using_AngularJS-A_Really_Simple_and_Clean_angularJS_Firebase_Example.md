@@ -1,6 +1,6 @@
 ##  A really SIMPLE and clean AngularJS+Firebase example 
 
-As seen on the [First PoC of sending TeamMentor's server-side request URLS to Firebase (and seeing it in realtime in an AngularJS page)](http://blog.diniscruz.com/2014/02/first-poc-of-sending-teammentors-server.html) I created a **_Simple_** AngularJS website which I'm very happy with (and I mean **_Simple_** with a capital **_S_**).
+As seen on the [First PoC of sending TeamMentor's server-side request URLS to Firebase (and seeing it in realtime in an AngularJS page)](C3_Firebase-firstpocofsendingteammentorsserversiderequesturlstofirebaseandseeingitinrealtimeinanangularjspage.md) I created a **_Simple_** AngularJS website which I'm very happy with (and I mean **_Simple_** with a capital **_S_**).
 
 The main reason I really like the solution shown below, is because it represents a number of really nice, clean and **_Simple_** solutions for common (complex) problems that exist while developing in Javascript.
 
