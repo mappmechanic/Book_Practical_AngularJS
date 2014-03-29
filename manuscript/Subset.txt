@@ -1,11 +1,23 @@
+
 {frontmatter}
 
-C0_Introduction-Introduction.md
+C0_Introduction-.md
+
 C0_Introduction-ChangeLog.md
-C0_Introduction-Table_of_contents.md
 
 {mainmatter}
 
-C1_Using_AngularJS-_Chapter_Using_AngularJS.md
+C1_Using_AngularJS-.md
+
 C1_Using_AngularJS-A_Really_Simple_and_Clean_angularJS_Firebase_Example.md
 C1_Using_AngularJS-usingangularjsineclipsepart1thebasics.md
+C1_Using_AngularJS-usingangularjsineclipsepart2addsomecontrol.md
+C1_Using_AngularJS-usingangularjsineclipsepart3wireupabackend.md
+C1_Using_AngularJS-usingangularjsineclipsepart4createcomponents.md
+C1_Using_AngularJS-angularjscodeeditorusinguibootstrapandcodemirrordonewithoutusingjquery.md
+
+C2_KarmaJS-.md
+
+C2_KarmaJS-asmallangularjsjasminetestexecutedbykarmajs.md
+C2_KarmaJS-creatinganeclipseuitorunangularjse2etestsusingkarma.md
+C2_KarmaJS-runningkarmajssangularjsexampleteste2eangularscenarioonchrome.md
