@@ -14,7 +14,7 @@ The created application is an:
   
 The image below shows what the AngularJS+Firebase application looks like, with the urls shown in the background browser being the ones requested when the TeamMentor website is loaded or navigated (note that the latency between _'request made' _and _'request listed'_ is really small (about ~ 50 milliseconds)):
 
-[![](images/Screen_Shot_2014-02-27_at_15_18_09.png)](http://3.bp.blogspot.com/-5Jc2D542iiI/Uw-YkrV9KFI/AAAAAAAAH8c/2m3tgM0alO8/s1600/Screen+Shot+2014-02-27+at+15.18.09.png)
+[![](../images/Screen_Shot_2014-02-27_at_15_18_09.png)](http://3.bp.blogspot.com/-5Jc2D542iiI/Uw-YkrV9KFI/AAAAAAAAH8c/2m3tgM0alO8/s1600/Screen+Shot+2014-02-27+at+15.18.09.png)
 
 What I also like about the AngularJS structure that I ended up with, is that it represents a great way to learn AngularJS' architecture and capabilities (and yes I know and agree that for bigger AngularJS apps it is better to [organise by feature](http://organizate%20by%20feature%20tech.pro/tutorial/1699/building-large-apps-with-angularjs) and group the multiple files under a dedicated folder (for example the login controller, service, factory, view and tests should all go under the same logical folder))
 
@@ -29,7 +29,7 @@ Inside an Eclipse Web Static project, I created a file structure with:
   * 1 directive created in the **_directives_** folder
   * 3 views placed on the **_views_** folder
 
-[![](images/Screen_Shot_2014-02-28_at_15_26_17.png)](http://3.bp.blogspot.com/-dED4MI9_O74/UxCqtb5ZGSI/AAAAAAAAH-Q/DGA5LJY1-YQ/s1600/Screen+Shot+2014-02-28+at+15.26.17.png)
+[![](../images/Screen_Shot_2014-02-28_at_15_26_17.png)](http://3.bp.blogspot.com/-dED4MI9_O74/UxCqtb5ZGSI/AAAAAAAAH-Q/DGA5LJY1-YQ/s1600/Screen+Shot+2014-02-28+at+15.26.17.png)
 
 **1) Index.html**
 
@@ -45,8 +45,9 @@ This is the file loaded directly by the browser, which is made of:
     * the custom **_top-menu _**directive (using _attribute_ instead of _element_)
     * the AngularJS **_ng-view_** directive   
 
-  
-[![](images/Screen_Shot_2014-02-28_at_15_39_06.png)](http://2.bp.blogspot.com/-02DQ1JWslzU/UxCtuxj2ouI/AAAAAAAAH-w/_i76xoHTOaY/s1600/Screen+Shot+2014-02-28+at+15.39.06.png)
+**IMAGE BELOW IS BROKEN**
+
+[![](images/_a_Screen_Shot_2014-02-28_at_15_39_06.png)](http://2.bp.blogspot.com/-02DQ1JWslzU/UxCtuxj2ouI/AAAAAAAAH-w/_i76xoHTOaY/s1600/Screen+Shot+2014-02-28+at+15.39.06.png)
 
 Since I'm using the [AngularJS Eclipse ](https://github.com/angelozerr/angularjs-eclipse)plugin, hovering the mouse op top of an AngularJS directive provides a nice description of they do.
 

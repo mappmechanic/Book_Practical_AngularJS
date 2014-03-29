@@ -2,8 +2,8 @@
 
 In 2014, here are the changes made (per version):
 
-* **v0.20 (29 March)**
-    * renamed all files to *.md (which make sense since they are Markdown files, and they look much better at GitHub)
+* **v0.20 (29 March)**    
+    * renamed all content files to *.md (which make sense since they are Markdown files, and they look much better at GitHub), and put them into chapter specific folders (I also removed the 'c' prefix from the posts names)
     * new files: C0-Introduction/Table_of_contents.md
 
 * **v0.13 (16th March)**
