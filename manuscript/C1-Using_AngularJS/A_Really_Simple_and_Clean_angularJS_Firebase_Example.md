@@ -46,8 +46,11 @@ This is the file loaded directly by the browser, which is made of:
     * the AngularJS **_ng-view_** directive   
 
 **IMAGE Should work **
-![Image caption](/manuscript/images/Screen_Shot_2014-02-28_at_15_39_06.png)]
+
+![Image caption](/manuscript/C1-Using_AngularJS/images/Screen_Shot_2014-02-28_at_15_39_06.png)]
+
 **IMAGE Works in GitHUb **
+
 ![Image caption](images/Screen_Shot_2014-02-28_at_15_39_06.png)]
 
 **IMAGE BELOW IS BROKEN**
