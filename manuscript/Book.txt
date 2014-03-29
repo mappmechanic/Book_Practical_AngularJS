@@ -3,7 +3,6 @@
 C0_Introduction-.md
 
 C0_Introduction-ChangeLog.md
-C0_Introduction-Table_of_contents.md
 
 {mainmatter}
 

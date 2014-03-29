@@ -9,31 +9,31 @@
 
 ### [Chapter 1 - Using AngularJS](/manuscript/C1_Using_AngularJS-.md)
 
-C1_Using_AngularJS-A_Really_Simple_and_Clean_angularJS_Firebase_Example.md
-C1_Using_AngularJS-usingangularjsineclipsepart1thebasics.md
-C1_Using_AngularJS-usingangularjsineclipsepart2addsomecontrol.md
-C1_Using_AngularJS-usingangularjsineclipsepart3wireupabackend.md
-C1_Using_AngularJS-usingangularjsineclipsepart4createcomponents.md
-C1_Using_AngularJS-angularjscodeeditorusinguibootstrapandcodemirrordonewithoutusingjquery.md
+* [A really SIMPLE and clean AngularJS+Firebase example](/manuscript/C1_Using_AngularJS-A_Really_Simple_and_Clean_angularJS_Firebase_Example.md)
+* [Using AngularJS in Eclipse, Part 1) The Basics](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart1thebasics.md)
+* [Using AngularJS in Eclipse, Part 2) Add Some Control](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart2addsomecontrol.md)
+* [Using AngularJS in Eclipse, Part 3) Wire up a Backend](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart3wireupabackend.md)
+* [Using AngularJS in Eclipse, Part 4) Create Components](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart4createcomponents.md)
+* [AngularJS code editor using UI-Bootstrap and CodeMirror (done without using jQuery)](/manuscript/C1_Using_AngularJS-angularjscodeeditorusinguibootstrapandcodemirrordonewithoutusingjquery.md)
 
-C2_KarmaJS-.md
+### [Chapter 2 - Using KarmaJS](C2_KarmaJS-.md)
 
 C2_KarmaJS-asmallangularjsjasminetestexecutedbykarmajs.md
 C2_KarmaJS-creatinganeclipseuitorunangularjse2etestsusingkarma.md
 C2_KarmaJS-runningkarmajssangularjsexampleteste2eangularscenarioonchrome.md
 
-C3_Firebase-.md
+### [Chapter 3 - Using Firebase](C3_Firebase-.md)
 
 C3_Firebase-firstpocofsendingteammentorsserversiderequesturlstofirebaseandseeingitinrealtimeinanangularjspage.md
 C3_Firebase-tryingoutfirebasebetahostingsolutionandgoodexampleoffirebasesecurityrules.md
 
-C4_Misc_Tricks-.md
+### [Chapter 4 - Misc Tricks](C4_Misc_Tricks-.md)
 
 C4_Misc_Tricks-programaticallychanginganangularjsscopevariableandaddingfirebuglitetoanangularjsapp.md
 C4_Misc_Tricks-hubspotcurrentjscodeincludesjqueryonit.md
 C4_Misc_Tricks-submittingtmuserstohubspotviatbotinterfaceusingangularjs.md
 
-C5_IDEs-.md
+### [Chapter 5 - IDEs](C5_IDEs-.md)
 
 C5_IDEs-eclipsegroovyreplscripttosyncabrowserwithfilechangeswithrecursivefoldersearchviajavaswatchservice.md
 C5_IDEs-eclipsegroovyscripttoremovethebusyimagefromthewebbrowsereditor.md
@@ -42,7 +42,7 @@ C5_IDEs-usingwebstormwithchromeandchromedrivertoviewkarmajsexecutionresults.md
 C5_IDEs-whenthebestwaytoautomatechromeistousechromewithexamplesongooglesearchdirectangularjsscopemanipulationandchromedriverjavascriptaccess.md
 C5_IDEs-addingkarmajssupporttowebstormtoautomagicallyruntestsonfilechangesandtestuiwithsublimetextchromeandcmdexe.md
 
-C6_Troubleshooting-.md
+### [Chapter 6 - Troubleshooting](C6_Troubleshooting-.md)
 
 C6_Troubleshooting-karmajsangularjsscenariotestrunnerexecutionvariationsinie789and10whenusingangularjs.md
 C6_Troubleshooting-ifangularjsdoesntworkonyouro2platformiescriptsthefixistochangebrowsercompatibilitymode.md
@@ -51,12 +51,7 @@ C6_Troubleshooting-debuggingaweirdcaseofmissingmoduleinangularjsandkarmajs.md
 
 {backmatter}
 
-C7_Appendices.md
+### [Appendices](C7_Appendices.md)
+
 C7_Appendices-Appendix_PostsDetails.md
 
-
-
-
-Q> ## Why a separate table of contents? 
-Q> 
-Q> To help with navigation when using/consuming the book at GitHub

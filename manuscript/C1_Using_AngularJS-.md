@@ -9,4 +9,6 @@ This section has the following chapters:
 * [Using AngularJS in Eclipse, Part 4) Create Components](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart4createcomponents.md)
 * [AngularJS code editor using UI-Bootstrap and CodeMirror (done without using jQuery)](/manuscript/C1_Using_AngularJS-angularjscodeeditorusinguibootstrapandcodemirrordonewithoutusingjquery.md)
 
-Back to [Readme](/README.md) - [Table of Contents](/manuscript/C0_Introduction-Table_of_contents.md)
+
+- - - - 
+GitHub Navigation: [Table of Contents](../Table_of_contents.md) | [Code](../Code)
