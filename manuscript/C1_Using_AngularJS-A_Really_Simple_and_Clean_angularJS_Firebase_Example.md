@@ -149,3 +149,8 @@ Btw, did you noticed anything different in the formatting of the code samples ab
 Is it easier to read? 
 
 If you are interested in the topic of code formatting also see [On Java code formatting](http://blog.diniscruz.com/2014/01/on-java-code-formating.html)  and [Formatting code for readability](http://blog.diniscruz.com/2012/11/formatting-code-for-readability.html)
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

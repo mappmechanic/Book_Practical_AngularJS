@@ -19,3 +19,7 @@ After many years (and multiple roles) Dinis is still very active at OWASP, curre
 After failing to scale his own security knowledge, learned Git, created security vulnerabilities in code published to production servers, delivered training to developers, and building multiple CI (Continuous Integration) environments; Dinis had the epiphany that the key to application security is "Secure Continuous Delivery: Developer’s Immediate Connection to What They’re Creating". This 'Immediate Connection/Feedback' concept is deep rooted in the development of the O2 Platform/TeamMentor, and is something that will keep Dinis busy for many years.
 
 
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

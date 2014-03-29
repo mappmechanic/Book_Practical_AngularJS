@@ -187,3 +187,8 @@ One thing I noticed was that the style changes provided by **todo.css :**
 ... and stand-alone Safari (note that there is a **_line-through_** applied when an item it checked as done)
 
 [![](images/Screen_Shot_2014-02-19_at_19_50_59.png)](http://1.bp.blogspot.com/-uPKfMucEGz4/UwUMMzQuAII/AAAAAAAAHEE/sQK7pVlCd0A/s1600/Screen+Shot+2014-02-19+at+19.50.59.png)
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

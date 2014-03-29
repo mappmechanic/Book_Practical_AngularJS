@@ -118,3 +118,7 @@ Once that completed, I was able to see the **_Compare With -> HEAD Revision_** o
 ... which provides this really nice **_Git diff_** UI:
 
 [![](images/Screen_Shot_2014-02-24_at_10_57_21.png)](http://4.bp.blogspot.com/-o1PnA6ywrjA/UwsqxMAlCSI/AAAAAAAAHVo/50Q31p3kLVs/s1600/Screen+Shot+2014-02-24+at+10.57.21.png)
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

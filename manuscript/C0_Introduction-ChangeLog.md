@@ -31,3 +31,7 @@ In 2014, here are the changes made (per version):
 * **v0.10 (10th March)**
     * First release of book with raw import from blogger posts (no formatting or editing done)
 
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

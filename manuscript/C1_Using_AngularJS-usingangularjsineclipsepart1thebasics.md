@@ -178,3 +178,8 @@ To commit the files drag-n-drop them from the **_Unstaged Changes_** to the _Sta
 After clicking the **_Commit_** button the **_Git Repositories _**view will give a visual representation of the location current HEAD (which is the commit just done)
 
 [![](images/Screen_Shot_2014-02-19_at_18_26_06.png)](http://2.bp.blogspot.com/-Hl9V7rKQK3w/UwT3rDepfOI/AAAAAAAAG-w/bJ0EGKxFrKo/s1600/Screen+Shot+2014-02-19+at+18.26.06.png)
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)
