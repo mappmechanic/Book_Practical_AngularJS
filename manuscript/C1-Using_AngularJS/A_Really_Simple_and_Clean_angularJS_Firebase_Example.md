@@ -47,13 +47,13 @@ This is the file loaded directly by the browser, which is made of:
 
 **IMAGE Should work **
 
-![Image caption](/manuscript/C1-Using_AngularJS/images/Screen_Shot_2014-02-28_at_15_39_06.png)]
+![Image caption](/manuscript/C1-Using_AngularJS/images/Screen_Shot_2014-02-28_at_15_39_06.png)
 
 **IMAGE Works in GitHUb **
 
-![Image caption](images/Screen_Shot_2014-02-28_at_15_39_06.png)]
+![Image caption](images/Screen_Shot_2014-02-28_at_15_39_06.png)
 
-**IMAGE BELOW IS BROKEN**
+**IMAGE BELOW Should now be working on both locations**
 [![](/images/Screen_Shot_2014-02-28_at_15_39_06.png)](http://2.bp.blogspot.com/-02DQ1JWslzU/UxCtuxj2ouI/AAAAAAAAH-w/_i76xoHTOaY/s1600/Screen+Shot+2014-02-28+at+15.39.06.png)
 
 Since I'm using the [AngularJS Eclipse ](https://github.com/angelozerr/angularjs-eclipse)plugin, hovering the mouse op top of an AngularJS directive provides a nice description of they do.
