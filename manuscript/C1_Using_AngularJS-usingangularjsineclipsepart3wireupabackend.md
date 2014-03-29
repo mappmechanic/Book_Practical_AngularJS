@@ -3,10 +3,10 @@
 This is the third of four posts on how to run (inside Eclipse) the examples provided in [AngularJS](http://angularjs.org/http://angularjs.org/)'s home page:  
 
 
-  * [Using AngularJS in Eclipse, Part 1) The Basics](http://blog.diniscruz.com/2014/02/using-angularjs-in-eclipse-part-1.html)
-  * [Using AngularJS in Eclipse, Part 2) Add Some Control](http://blog.diniscruz.com/2014/02/using-angularjs-in-eclipse-part-2-add.html) 
-  * Using AngularJS in Eclipse, Part 3) Wire up a Backend
-  * [Using AngularJS in Eclipse, Part 4) Create Components](http://blog.diniscruz.com/2014/02/using-angularjs-in-eclipse-part-4.html)
+* [Using AngularJS in Eclipse, Part 1) The Basics](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart1thebasics.md)
+* [Using AngularJS in Eclipse, Part 2) Add Some Control](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart2addsomecontrol.md)
+* Using AngularJS in Eclipse, Part 3) Wire up a Backend
+* [Using AngularJS in Eclipse, Part 4) Create Components](/manuscript/C1_Using_AngularJS-usingangularjsineclipsepart4createcomponents.md)
 
 The example covered on this post is the _**Wire up a Backend:**_
 
