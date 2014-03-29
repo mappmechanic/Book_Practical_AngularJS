@@ -3,9 +3,10 @@
 In 2014, here are the changes made (per version):
 
 * **v0.20 (29 March)**    
-    * updated Readme.md file to point to existing articles. 
+    * updated Readme.md file to point to existing articles.     
     * renamed all content files to *.md (which make sense since they are Markdown files, and they look much better at GitHub) and gave them a name that is related to its current chapter
     * new files: C0-Introduction/Table_of_contents.md
+    * created a GitHub-only 'table of contents' which links to all available chapters. Each chapter intro page also has the links for its child articles. Added some navigation links to the end of each article (to allow easy navigation when browsing the content in GitHub)
 
 * **v0.13 (16th March)**
     * added new cover to eBook version
