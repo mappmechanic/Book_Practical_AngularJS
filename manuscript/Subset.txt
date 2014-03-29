@@ -1,10 +1,11 @@
 {frontmatter}
 
-C0-Introduction/Introduction.md
-C0-Introduction/ChangeLog.md
-C0-Introduction/Table_of_contents.md
+C0_Introduction-Introduction.md
+C0_Introduction-ChangeLog.md
+C0_Introduction-Table_of_contents.md
 
 {mainmatter}
 
-C1-Using_AngularJS/_Chapter_Using_AngularJS.md
-C1-Using_AngularJS/A_Really_Simple_and_Clean_angularJS_Firebase_Example.md
+C1_Using_AngularJS-_Chapter_Using_AngularJS.md
+C1_Using_AngularJS-A_Really_Simple_and_Clean_angularJS_Firebase_Example.md
+C1_Using_AngularJS-usingangularjsineclipsepart1thebasics.md
