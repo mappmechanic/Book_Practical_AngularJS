@@ -64,3 +64,9 @@ A next step is to create a mini UI to allow the configuration of the target file
 8) note that the the log message shows the events being triggered and the resetting of the **_WatcherService_**:
 
 [![](images/Screen_Shot_2014-02-25_at_23_22_16.png)](http://4.bp.blogspot.com/-dyhe4VKH1iQ/Uw0l12g2nxI/AAAAAAAAHlU/VpPM6Rqa1_M/s1600/Screen+Shot+2014-02-25+at+23.22.16.png)
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

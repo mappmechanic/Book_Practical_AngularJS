@@ -65,44 +65,44 @@ For example, here are a couple interesting two way data exchange between the C# 
 Chrome javascript:
 
 **1) get an int value**  
-**  
-**[![image](images/image_thumb13.png)](http://lh6.ggpht.com/-gs0zGT9bt8U/UcVjI7D9mtI/AAAAAAAAOWU/zbx7ksxqZAA/s1600-h/image33.png)
+
+[![image](images/image_thumb13.png)](http://lh6.ggpht.com/-gs0zGT9bt8U/UcVjI7D9mtI/AAAAAAAAOWU/zbx7ksxqZAA/s1600-h/image33.png)
 
 **2) get an string value:**
 
 [![image](images/image_thumb14.png)](http://lh3.ggpht.com/-c4nqLX1FQBE/UcVjKzka34I/AAAAAAAAOW8/QUcWJmNvqD0/s1600-h/image36.png)   
-**  
-****3) get an simple object (converted into dictionary)**  
-**  
-**[![image](images/image_thumb18.png)](http://lh6.ggpht.com/-T-eIEwee12I/UcVjMhfuBKI/AAAAAAAAOXc/kboP_WmTs4E/s1600-h/image48.png)   
-**  
-****4) get an array**  
-**  
-**[![image](images/image_thumb19.png)](http://lh4.ggpht.com/-hUYF7nv2zY0/UcVjOf21jSI/AAAAAAAAOXw/9Yr4J2S-Vik/s1600-h/image51.png)   
-**  
-****5) get the document.location object**  
-**  
-**[![image](images/image_thumb20.png)](http://lh5.ggpht.com/-I3Q1x-XywMQ/UcVjPw5MTOI/AAAAAAAAOYA/_RHD1HZ9HDo/s1600-h/image54.png)   
-**  
-****6) get the 'this' object**  
-**  
-**[![image](images/image_thumb21.png)](http://lh4.ggpht.com/-i7dcyT5TrPA/UcVjR6q3ZjI/AAAAAAAAOYQ/DvlJU9F8Ux0/s1600-h/image57.png)   
-**  
-****7) get the first document.element **  
-**  
-**[![image](images/image_thumb24.png)](http://lh5.ggpht.com/-wwQpPpiEEWc/UcVjTXzatHI/AAAAAAAAOYg/VTBc1ikTI58/s1600-h/image66.png)   
-**  
-****8) get the html of the first document.element**  
-**  
-**[![image](images/image_thumb25.png)](http://lh5.ggpht.com/-0D0kjKEg3jY/UcVjU34gAmI/AAAAAAAAOYw/fDDhm-W8j7g/s1600-h/image69.png)   
-**  
-****9) show an alert**  
-**  
-**[![image](images/image_thumb26.png)](http://lh6.ggpht.com/-Z3VJbrU0hJE/UcVjWWfHl6I/AAAAAAAAOZA/VX9oHnvFi04/s1600-h/image72.png)   
-**  
-****10) getting and using an Html element via ExecuteScript**  
-**  
-**[![image](images/image_thumb27.png)](http://lh3.ggpht.com/-waw28QmmMBM/UcVjXzra6cI/AAAAAAAAOZQ/2_jJtHMjxao/s1600-h/image75.png)
+
+**3) get an simple object (converted into dictionary)**  
+
+[![image](images/image_thumb18.png)](http://lh6.ggpht.com/-T-eIEwee12I/UcVjMhfuBKI/AAAAAAAAOXc/kboP_WmTs4E/s1600-h/image48.png)   
+
+**4) get an array**  
+
+[![image](images/image_thumb19.png)](http://lh4.ggpht.com/-hUYF7nv2zY0/UcVjOf21jSI/AAAAAAAAOXw/9Yr4J2S-Vik/s1600-h/image51.png)   
+
+**5) get the document.location object**  
+
+[![image](images/image_thumb20.png)](http://lh5.ggpht.com/-I3Q1x-XywMQ/UcVjPw5MTOI/AAAAAAAAOYA/_RHD1HZ9HDo/s1600-h/image54.png)   
+
+**6) get the 'this' object**  
+
+[![image](images/image_thumb21.png)](http://lh4.ggpht.com/-i7dcyT5TrPA/UcVjR6q3ZjI/AAAAAAAAOYQ/DvlJU9F8Ux0/s1600-h/image57.png)   
+
+**7) get the first document.element **  
+
+[![image](images/image_thumb24.png)](http://lh5.ggpht.com/-wwQpPpiEEWc/UcVjTXzatHI/AAAAAAAAOYg/VTBc1ikTI58/s1600-h/image66.png)   
+
+**8) get the html of the first document.element**  
+
+[![image](images/image_thumb25.png)](http://lh5.ggpht.com/-0D0kjKEg3jY/UcVjU34gAmI/AAAAAAAAOYw/fDDhm-W8j7g/s1600-h/image69.png)   
+
+**9) show an alert**  
+
+[![image](images/image_thumb26.png)](http://lh6.ggpht.com/-Z3VJbrU0hJE/UcVjWWfHl6I/AAAAAAAAOZA/VX9oHnvFi04/s1600-h/image72.png)   
+
+**10) getting and using an Html element via ExecuteScript**  
+
+[![image](images/image_thumb27.png)](http://lh3.ggpht.com/-waw28QmmMBM/UcVjXzra6cI/AAAAAAAAOZQ/2_jJtHMjxao/s1600-h/image75.png)
 
 which will populate the search text value and click on the search icon
 
@@ -119,104 +119,110 @@ What is cool about all these examples is that we are running the code on the loc
     //var topPanel      = panel.clear().add_Panel();   
     var topPanel = "Util - Chrome with REPL".popupWindow(1200,600);
 
-var replPanel = topPanel.add_GroupBox("C# Repl").add_Panel();  
-var chromePanel = topPanel.insert_Right(replPanel.width() / 2 , "Chrome");  
-var chromeDriver = chromePanel.parent().insert_Below(150,"Chrome WebDriver");
+    var replPanel = topPanel.add_GroupBox("C# Repl").add_Panel();  
+    var chromePanel = topPanel.insert_Right(replPanel.width() / 2 , "Chrome");  
+    var chromeDriver = chromePanel.parent().insert_Below(150,"Chrome WebDriver");
 
-var firstScript =   
-@"chromeDriver.open(""http://www.google.com"");  
-chromeDriver.FindElement(By.Name(""q""))  
-.SendKeys(""O2 Platform"");  
-chromeDriver.FindElement(By.Name(""btnG""))  
-.Click();  
-return ""done"";
+    var firstScript =   
+    @"chromeDriver.open(""http://www.google.com"");  
+    chromeDriver.FindElement(By.Name(""q""))  
+    .SendKeys(""O2 Platform"");  
+    chromeDriver.FindElement(By.Name(""btnG""))  
+    .Click();  
+    return ""done"";
 
-//using OpenQA.Selenium;  
-//O2Ref:WebDriver.dll  
-//O2File:API_ChromeDriver.cs";
+    //using OpenQA.Selenium;  
+    //O2Ref:WebDriver.dll  
+    //O2File:API_ChromeDriver.cs";
 
-var chromeHijack = new API_Chrome_Hijack()  
-.open_ChromeDriver();
+    var chromeHijack = new API_Chrome_Hijack()  
+    .open_ChromeDriver();
 
-chromeHijack.ChromeDriver.script_Me(replPanel).set_Code(firstScript);   
-var hijacked_Chrome = chromePanel.add_Handle_HijackGui(false)   
-.hijackProcessMainWindow(chromeHijack.ChromeProcess);  
-var hijacked_ChromeDriver = chromeDriver.add_Handle_HijackGui(false)   
-.hijackProcessMainWindow(chromeHijack.ChromeDriverProcess);
+    chromeHijack.ChromeDriver.script_Me(replPanel).set_Code(firstScript);   
+    var hijacked_Chrome = chromePanel.add_Handle_HijackGui(false)   
+    .hijackProcessMainWindow(chromeHijack.ChromeProcess);  
+    var hijacked_ChromeDriver = chromeDriver.add_Handle_HijackGui(false)   
+    .hijackProcessMainWindow(chromeHijack.ChromeDriverProcess);
 
-//O2File:API_Chrome_Hijack.cs  
-//O2File:API_Win32_Handle_Hijack.cs
+    //O2File:API_Chrome_Hijack.cs  
+    //O2File:API_Win32_Handle_Hijack.cs
 
-//O2Ref:WebDriver.dll  
-  
-**B) first code example (open Google and do a search)**  
+    //O2Ref:WebDriver.dll  
+      
+    **B) first code example (open Google and do a search)**  
 
-    
-    chromeDriver.open("http://www.google.com");  
-    chromeDriver.FindElement(By.Name("q"))  
-                .SendKeys("O2 Platform");  
-    chromeDriver.FindElement(By.Name("btnG"))  
-                .Click();  
+        
+        chromeDriver.open("http://www.google.com");  
+        chromeDriver.FindElement(By.Name("q"))  
+                    .SendKeys("O2 Platform");  
+        chromeDriver.FindElement(By.Name("btnG"))  
+                    .Click();  
+        return "done";
+
+    //using OpenQA.Selenium;  
+    //O2Ref:WebDriver.dll  
+    //O2File:API_ChromeDriver.cs  
+      
+    **C) 2nd code example, open AngularJS page and programmatically change a $scope variable**  
+
+        
+        var url          = "http://localhost:12120/AngularJS/Tests/AngularJS/Simple.html";
+
+    //var jQuery = "http://code.jquery.com/jquery-1.10.1.min.js".GET();  
+    var jQuery = "jquery-1.9.1.min.js".local().fileContents();  
+    var angular_Cmd1 = "scope = angular.element($('input').eq(0)).scope()";  
+    var angular_Cmd2 = "scope.yourName='12345'";  
+    var angular_Cmd3 = "scope.$apply()";
+
+    var console_Cmd1 = "console.log('all done, hello should say 12345')";
+
+    chromeDriver.Navigate().GoToUrl(url);
+
+    chromeDriver.ExecuteScript(jQuery);
+
+    chromeDriver.ExecuteScript(angular_Cmd1);  
+    chromeDriver.ExecuteScript(angular_Cmd2);  
+    chromeDriver.ExecuteScript(angular_Cmd3);
+
+    chromeDriver.ExecuteScript(console_Cmd1);
+
     return "done";
 
-//using OpenQA.Selenium;  
-//O2Ref:WebDriver.dll  
-//O2File:API_ChromeDriver.cs  
-  
-**C) 2nd code example, open AngularJS page and programmatically change a $scope variable**  
+    // doesn't work to open chrome's inspector  
+    // chromeDriver.Keyboard.SendKeys(OpenQA.Selenium.Keys.F12);
 
-    
-    var url          = "http://localhost:12120/AngularJS/Tests/AngularJS/Simple.html";
+    //using OpenQA.Selenium;  
+    //O2Ref:WebDriver.dll  
+    **D) last example where search filed was retrieved using two different techniques:**  
 
-//var jQuery = "http://code.jquery.com/jquery-1.10.1.min.js".GET();  
-var jQuery = "jquery-1.9.1.min.js".local().fileContents();  
-var angular_Cmd1 = "scope = angular.element($('input').eq(0)).scope()";  
-var angular_Cmd2 = "scope.yourName='12345'";  
-var angular_Cmd3 = "scope.$apply()";
+        
+        //open Url  
+        /*chromeDriver.ExecuteScript(  
+             "document.location= 'http://localhost:12120'"); */
 
-var console_Cmd1 = "console.log('all done, hello should say 12345')";
+    //Getting the SearchTextBox object via ExecuteScript  
+    var searchElement = (RemoteWebElement)chromeDriver.ExecuteScript(  
+    "return document.getElementById('SearchTextBox')");  
+    searchElement.Clear();  
+    searchElement.SendKeys("Sql ");
 
-chromeDriver.Navigate().GoToUrl(url);
+    //Getting the SearchTextBox object via Selenium selector  
+    chromeDriver.FindElement(By.Id("SearchTextBox"))  
+    .SendKeys("Injection");
 
-chromeDriver.ExecuteScript(jQuery);
+    //Click on search Button  
+    chromeDriver.FindElement(By.Id("ctl00_ContentPlaceHolder1_SearchControl1_SearchButton"))  
+    .Click();
 
-chromeDriver.ExecuteScript(angular_Cmd1);  
-chromeDriver.ExecuteScript(angular_Cmd2);  
-chromeDriver.ExecuteScript(angular_Cmd3);
+    return "done";
 
-chromeDriver.ExecuteScript(console_Cmd1);
+    //using OpenQA.Selenium.Remote  
+    //using OpenQA.Selenium;  
+    //O2Ref:WebDriver.dll  
 
-return "done";
 
-// doesn't work to open chrome's inspector  
-// chromeDriver.Keyboard.SendKeys(OpenQA.Selenium.Keys.F12);
 
-//using OpenQA.Selenium;  
-//O2Ref:WebDriver.dll  
-**D) last example where search filed was retrieved using two different techniques:**  
 
-    
-    //open Url  
-    /*chromeDriver.ExecuteScript(  
-         "document.location= 'http://localhost:12120'"); */
 
-//Getting the SearchTextBox object via ExecuteScript  
-var searchElement = (RemoteWebElement)chromeDriver.ExecuteScript(  
-"return document.getElementById('SearchTextBox')");  
-searchElement.Clear();  
-searchElement.SendKeys("Sql ");
-
-//Getting the SearchTextBox object via Selenium selector  
-chromeDriver.FindElement(By.Id("SearchTextBox"))  
-.SendKeys("Injection");
-
-//Click on search Button  
-chromeDriver.FindElement(By.Id("ctl00_ContentPlaceHolder1_SearchControl1_SearchButton"))  
-.Click();
-
-return "done";
-
-//using OpenQA.Selenium.Remote  
-//using OpenQA.Selenium;  
-//O2Ref:WebDriver.dll  
-
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

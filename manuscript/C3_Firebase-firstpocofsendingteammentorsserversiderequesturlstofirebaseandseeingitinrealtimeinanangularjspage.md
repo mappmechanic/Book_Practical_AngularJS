@@ -45,3 +45,9 @@ Let me know if you have any questions regarding this example.
 In terms of being able to recover from going offline, Firebase seems to do a good job at reconnecting back to the server once the host box is back online (see image below which happened between me leaving my house and connecting into my current WIFI location)  
 
 [![](images/Screen_Shot_2014-02-27_at_15_15_10.png)](http://1.bp.blogspot.com/-i5Srlj4Zs7k/Uw9Y2v3vuiI/AAAAAAAAH2s/O4w25H2FheU/s1600/Screen+Shot+2014-02-27+at+15.15.10.png)
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

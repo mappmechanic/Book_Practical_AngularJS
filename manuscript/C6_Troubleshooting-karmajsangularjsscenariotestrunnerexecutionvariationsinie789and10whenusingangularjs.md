@@ -53,3 +53,10 @@ Now lets click on the _DEBUG _button to open the KarmaJS's**_ AngularJS Scenario
 **[![image](images/image_thumb_25255B13_25255D1.png)](http://lh5.ggpht.com/-k17ocI47gew/Ub815K35k1I/AAAAAAAAOOc/5f11NDK9Gjc/s1600-h/image%25255B41%25255D.png)
 
 So unfortunately it looks like this technique can't be used to run e2e (end-to-end) tests on AngularJS apps using KarmaJS 
+
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

@@ -28,6 +28,12 @@ As mentioned in the s[et .NET WebBrowser Control to use latest version of IE](ht
 [  
 ](file:///C:/Users/o2/AppData/Local/Temp/WindowsLiveWriter1286139640/supfiles26B705B/image[46].png)**Note 1: **if you control the site you are testing, you can also add this also works to make it work (with the advantage that it is not exe specific)
 
-**_        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />_**  
+    _<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />_
   
 
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

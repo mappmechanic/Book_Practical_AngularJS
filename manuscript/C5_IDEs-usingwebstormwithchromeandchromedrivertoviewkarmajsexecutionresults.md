@@ -15,31 +15,31 @@ Here is the code that creates this GUI (with some functionality [since the last 
     var topPanel  = "Util - Chrome with WebStorm".popupWindow(1200,600);  
     var webStormPanel = topPanel.add_GroupBox("WebStorm").add_Panel();
 
-//we need to stop any existing WebStorm processes  
-foreach(var process in Processes.getProcessesCalled("WebStorm"))  
-process.stop().WaitForExit();
+    //we need to stop any existing WebStorm processes  
+    foreach(var process in Processes.getProcessesCalled("WebStorm"))  
+    process.stop().WaitForExit();
 
-// start webstorm   
-var webStorm = @"C:\Program Files (x86)\JetBrains\WebStorm 6.0.2\bin\WebStorm.exe".startProcess();
+    // start webstorm   
+    var webStorm = @"C:\Program Files (x86)\JetBrains\WebStorm 6.0.2\bin\WebStorm.exe".startProcess();
 
-  
-var chromeHijack = new API_Chrome_Hijack().open_ChromeDriver()  
-.add_Chrome_To_Panel(topPanel.insert_Right());  
-//.add_WebDriver_ScriptMe_To(replPanel);
+      
+    var chromeHijack = new API_Chrome_Hijack().open_ChromeDriver()  
+    .add_Chrome_To_Panel(topPanel.insert_Right());  
+    //.add_WebDriver_ScriptMe_To(replPanel);
 
-//wait for main window handle  
-webStorm.waitFor_MainWindowHandle();  
-//hack to deal with the splash screen  
-3000.sleep();
+    //wait for main window handle  
+    webStorm.waitFor_MainWindowHandle();  
+    //hack to deal with the splash screen  
+    3000.sleep();
 
-//hijack WebStorm window  
-chromeHijack.hijack_Process_Into_Panel(webStormPanel,webStorm);
+    //hijack WebStorm window  
+    chromeHijack.hijack_Process_Into_Panel(webStormPanel,webStorm);
 
-chromeHijack.ChromeDriver.Navigate().GoToUrl("http://127.0.0.1:9876/__karma/debug.html");
+    chromeHijack.ChromeDriver.Navigate().GoToUrl("http://127.0.0.1:9876/__karma/debug.html");
 
-  
-//O2File:API_Chrome_Hijack.cs  
-//O2Ref:WebDriver.dll  
+      
+    //O2File:API_Chrome_Hijack.cs  
+    //O2Ref:WebDriver.dll  
   
 When executed for the first time, this GUI looks like this:
 
@@ -67,3 +67,9 @@ Opening up the normal page will start the 'auto test execution loop':
 
   
 Note: there is some kind of weird event race-condition happening and the keyboard key's events are not being fired inside the captured WebStorm. So in the case shown above, I open the file to edit in a WebStorm popup window, where the keyboard events fire-up ok (and I was able to make the changes to the unit test file) 
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

@@ -27,12 +27,12 @@ This gave me access to the **_VisualStudio_2010_** API
 [![image](images/image_thumb_25255B17_25255D.png)](http://lh5.ggpht.com/-oW4-dKmJwHY/UTftCFFZ_OI/AAAAAAAAKG0/YKHJT62ViXA/s1600-h/image%25255B22%25255D.png)
 
 where I can use the Extension Method **_add_Handle_HijackGui_**   
-**_  
-_**[![image](images/image_thumb_25255B18_25255D.png)](http://lh6.ggpht.com/-0wy3oVTrZ6Q/UTftDwXje1I/AAAAAAAAKHE/lTbH4npLDMo/s1600-h/image%25255B25%25255D.png)
+
+[![image](images/image_thumb_25255B18_25255D.png)](http://lh6.ggpht.com/-0wy3oVTrZ6Q/UTftDwXje1I/AAAAAAAAKHE/lTbH4npLDMo/s1600-h/image%25255B25%25255D.png)
 
 to create a native VisualStudio pane with the **_Windows Handle Hijack Gui_**  
-**_  
-_**[![image](images/image_thumb_25255B20_25255D.png)](http://lh5.ggpht.com/-_0SlLvHoJek/UTftF1XKKNI/AAAAAAAAKHU/BRO-1mq9b28/s1600-h/image%25255B31%25255D.png)
+
+[![image](images/image_thumb_25255B20_25255D.png)](http://lh5.ggpht.com/-_0SlLvHoJek/UTftF1XKKNI/AAAAAAAAKHU/BRO-1mq9b28/s1600-h/image%25255B31%25255D.png)
 
 With this GUI, we can grab any Window's Window, by dragging the target icon (top left) into the window we want to use/hijack:
 
@@ -54,3 +54,9 @@ For example, we can place it in the documents area as one of the source code fil
 As a final example, here is what it looks like if we just Hijack the browser's website window (without the navigation and top bars)
 
 [![image](images/image_thumb_25255B22_25255D.png)](http://lh5.ggpht.com/-wu5WCWhZ8qo/UTftO2OGYiI/AAAAAAAAKIk/dwrrs00lbUU/s1600-h/image%25255B37%25255D.png)
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

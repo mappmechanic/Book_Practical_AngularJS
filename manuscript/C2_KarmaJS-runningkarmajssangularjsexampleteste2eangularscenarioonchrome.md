@@ -127,3 +127,11 @@ And if we modify the 2nd test to:
 ... this was resolved by installed the 32bit version of nodeJS and running **_npm install_** on the karma folder (after cloning it)
 
 [![image](images/image_thumb_25255B32_25255D.png)](http://lh5.ggpht.com/-54uYSEboBII/Ub8Nmnsv3gI/AAAAAAAAOF0/xNXP8s-JjB4/s1600-h/image%25255B92%25255D.png)
+
+
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

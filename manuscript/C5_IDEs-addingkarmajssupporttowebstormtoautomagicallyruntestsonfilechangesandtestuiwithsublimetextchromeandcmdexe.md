@@ -187,3 +187,9 @@ Note that there are 4 separate process at play here (O2 Platform, Sublime, Chrom
   * [Submitting TM users to HubSpot via TBOT interface (using Angular JS)](http://blog.diniscruz.com/2013/04/submitting-tm-users-to-hubspot-via-tbot.html) 
   * [Using Chrome inside a native VisualStudio pane (using Window Handle Hijacking)](http://blog.diniscruz.com/2013/03/using-chrome-inside-native-visualstudio.html) 
   * [If AngularJS doesn't work on your O2 Platform IE scripts (the fix is to change browser compatibility mode)](http://blog.diniscruz.com/2013/06/if-angularjs-doesnt-work-on-your-o2.html) 
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

@@ -93,30 +93,30 @@ First we load the **Javascript** and **CSS:**
                 }  
             </script>  
         </head>  
-    <body ng-app="myApp">  
-        <div class="well well-large">  
-            <div class="container">  
-                <h2>CodeMirror working with AngularJS and Bootstrap</h2></div>  
+        <body ng-app="myApp">  
+            <div class="well well-large">  
+                <div class="container">  
+                    <h2>CodeMirror working with AngularJS and Bootstrap</h2></div>  
+                </div>  
+                <div ng-controller="codeCtrl">  
+                    <div class="container">
+
+                    <h4>Code Editor:</h4>  
+                    <p>With the the contents of this page (i.e.: {{docLocation}} )</p>
+
+                    <textarea ui-codemirror ng-model="code"></textarea>
+
+                    <br/><hr/><br/>
+
+                    <h4>Bootstrap alert style</h4>  
+                    <p>  
+                        Showing in real time the contents of the code shown above (make a change to try it)  
+                    </p>  
+                    <alert type="success">{{code}}</alert>  
+                </div>  
             </div>  
-            <div ng-controller="codeCtrl">  
-                <div class="container">
-
-                <h4>Code Editor:</h4>  
-                <p>With the the contents of this page (i.e.: {{docLocation}} )</p>
-
-                <textarea ui-codemirror ng-model="code"></textarea>
-
-                <br/><hr/><br/>
-
-                <h4>Bootstrap alert style</h4>  
-                <p>  
-                    Showing in real time the contents of the code shown above (make a change to try it)  
-                </p>  
-                <alert type="success">{{code}}</alert>  
-            </div>  
-        </div>  
-    </body>  
-</html>  
+        </body>  
+    </html>  
 
 
 

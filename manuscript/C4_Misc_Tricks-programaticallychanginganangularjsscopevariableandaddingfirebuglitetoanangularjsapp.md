@@ -49,3 +49,9 @@ The reason that didn't happen is because the change was done outside the Angular
 The solution is to call the **_scope.$apply()_** function (and the input field will be updated):
 
 [![](images/Screen_Shot_2014-03-01_at_19_20_55.png)](http://1.bp.blogspot.com/-cAkxQt3hi_o/UxI05aD58YI/AAAAAAAAID0/E1pKQdxQ_04/s1600/Screen+Shot+2014-03-01+at+19.20.55.png)
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

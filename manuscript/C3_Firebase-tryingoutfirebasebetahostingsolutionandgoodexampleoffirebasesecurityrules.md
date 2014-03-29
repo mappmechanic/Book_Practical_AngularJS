@@ -109,19 +109,12 @@ Also included is a Login page (with account creation capabilities):
 
 [![](images/Screen_Shot_2014-02-27_at_16_44_46.png)](http://4.bp.blogspot.com/-JrUiOJiJWYA/Uw9uXvU4NLI/AAAAAAAAH5k/qGt_r8FnZyM/s1600/Screen+Shot+2014-02-27+at+16.44.46.png)
 
-  
-
 
 **5) Review the security rules**
-
-**  
-**
 
 At this stage it's good to take a look at the security rules added to this Firebase app.
 
   
-
-
 In the image below we can see that:
 
   * Anonymous users **_can_** **_read_** all data, but **_not write_** by default
@@ -141,7 +134,6 @@ In the image below we can see that:
 
       * can be read if the current user matches its name (i.e. it is logged in as that user)
       * each user can write into two fields: _**name**_ and **_email_** (both with a max length of 2000) 
-
   
 
 
@@ -149,8 +141,8 @@ In the image below we can see that:
 
   
 **6) Create an account**  
-**  
-**To test the provided authorisation solution, let's start by trying to login with an account that doesn't exist:
+
+To test the provided authorisation solution, let's start by trying to login with an account that doesn't exist:
 
 [![](images/Screen_Shot_2014-02-27_at_16_44_58.png)](http://2.bp.blogspot.com/-OWkQ8tqpTPM/Uw9uYNZaCiI/AAAAAAAAH5s/nwgLpCADo8I/s1600/Screen+Shot+2014-02-27+at+16.44.58.png)
 
@@ -218,3 +210,9 @@ The user created was added to the current list of 'registered users' , and it mu
 
   
 
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)

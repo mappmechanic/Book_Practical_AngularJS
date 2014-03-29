@@ -10,5 +10,6 @@ This section has the following chapters:
 * [AngularJS code editor using UI-Bootstrap and CodeMirror (done without using jQuery)](/manuscript/C1_Using_AngularJS-angularjscodeeditorusinguibootstrapandcodemirrordonewithoutusingjquery.md)
 
 
+
 - - - - 
 GitHub Navigation: [Table of Contents](../Table_of_contents.md) | [Code](../Code)

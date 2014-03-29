@@ -45,3 +45,9 @@ Finally, we add that assignment to the TBot page
 [![image](images/image_thumb_25255B10_25255D.png)](http://lh3.ggpht.com/-_OKGu7VO41U/UVrQiYuf5OI/AAAAAAAAAw4/PVDhlOsFDTs/s1600-h/image%25255B32%25255D.png)
 
 And the previous code (that used the **_$_**) is working again (now using the JQuery version from **_current.js_**) 
+
+
+
+
+- - - - 
+[Table of Contents](../Table_of_contents.md) | [Code](../Code)
