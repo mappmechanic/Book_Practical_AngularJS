@@ -14,7 +14,7 @@ The created application is an:
   
 The image below shows what the AngularJS+Firebase application looks like, with the urls shown in the background browser being the ones requested when the TeamMentor website is loaded or navigated (note that the latency between _'request made' _and _'request listed'_ is really small (about ~ 50 milliseconds)):
 
-![](images/Screen_Shot_2014-02-27_at_15_18_09.png)]
+![](images/Screen_Shot_2014-02-27_at_15_18_09.png)
 
 What I also like about the AngularJS structure that I ended up with, is that it represents a great way to learn AngularJS' architecture and capabilities (and yes I know and agree that for bigger AngularJS apps it is better to [organise by feature](http://organizate%20by%20feature%20tech.pro/tutorial/1699/building-large-apps-with-angularjs) and group the multiple files under a dedicated folder (for example the login controller, service, factory, view and tests should all go under the same logical folder))
 
@@ -29,7 +29,7 @@ Inside an Eclipse Web Static project, I created a file structure with:
   * 1 directive created in the **_directives_** folder
   * 3 views placed on the **_views_** folder
 
-[![](images/Screen_Shot_2014-02-28_at_15_26_17.png)]
+![](images/Screen_Shot_2014-02-28_at_15_26_17.png)
 
 **1) Index.html**
 
@@ -45,17 +45,17 @@ This is the file loaded directly by the browser, which is made of:
     * the custom **_top-menu _**directive (using _attribute_ instead of _element_)
     * the AngularJS **_ng-view_** directive   
 
-![](images/Screen_Shot_2014-02-28_at_15_39_06.png)]
+![](images/Screen_Shot_2014-02-28_at_15_39_06.png)
 
 Since I'm using the [AngularJS Eclipse ](https://github.com/angelozerr/angularjs-eclipse)plugin, hovering the mouse op top of an AngularJS directive provides a nice description of they do.
 
 Here is the _ng-app _directive  
 
-![](images/Screen_Shot_2014-02-28_at_15_34_44.png)]
+![](images/Screen_Shot_2014-02-28_at_15_34_44.png)
   
 ... and here is the **_ng-view_** directive:
 
-[![](images/Screen_Shot_2014-02-28_at_15_35_11.png)](http://4.bp.blogspot.com/-zFI_4x2IdmY/UxCtu3jz1hI/AAAAAAAAH-k/OuvOyPgnWJ4/s1600/Screen+Shot+2014-02-28+at+15.35.11.png)
+![](images/Screen_Shot_2014-02-28_at_15_35_11.png)
 
 **2) app.js**
 
@@ -63,8 +63,7 @@ This is where the **_project_** module is created (with two dependencies **_ngRo
 
 Since I moved the controllers, factories, directives and routes into their own separate js file, there wasn't much to do here, apart from creating global values for the firebase URL and auth token (which will be dependency injected into the controllers and factories)
 
-[![](images/Screen_Shot_2014-02-28_at_14_37_26.png)](http://2.bp.blogspot.com/-T4eF4kwjfMk/UxCnuxa62LI/AAAAAAAAH80/SuBoLFEIyZg/s1600/Screen+Shot+2014-02-28+at+14.37.26.png)
-
+![](images/Screen_Shot_2014-02-28_at_14_37_26.png)
   
 **3) controllers.js**
 
