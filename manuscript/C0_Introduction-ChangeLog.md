@@ -4,6 +4,7 @@ In 2014, here are the changes made (per version):
 
 * **v0.30 (Aug)
    * Re-wrote the Introduction   
+   * Added 'AngularJS Books' chapter (to Introduction)
    
 * **v0.20 (29 March)**    
     * updated Readme.md file to point to existing articles.     
