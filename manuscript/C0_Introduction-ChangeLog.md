@@ -2,6 +2,9 @@
 
 In 2014, here are the changes made (per version):
 
+* **v0.30 (Aug)
+   * Re-wrote the Introduction   
+   
 * **v0.20 (29 March)**    
     * updated Readme.md file to point to existing articles.     
     * renamed all content files to *.md (which make sense since they are Markdown files, and they look much better at GitHub) and gave them a name that is related to its current chapter
